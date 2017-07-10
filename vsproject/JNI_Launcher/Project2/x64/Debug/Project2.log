@@ -1,0 +1,15 @@
+﻿Build started 7/10/2017 3:51:56 PM.
+     1>Project "c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.8.0_65\include\win32" /I"C:\Program Files\Java\jdk1.8.0_65\include" /Zi /nologo /W3 /WX- /sdl /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\..\..\NetBeansProjects\jni_sketching\src\include\physics.c
+         physics.c
+     1>c:\users\winfrees\documents\netbeansprojects\jni_sketching\src\include\physics.c(96): warning C4715: 'velocity' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Debug\Physics.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Debug\Physics.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Debug\Physics.lib" /MACHINE:X64 /DLL x64\Debug\physics.obj
+            Creating library c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Debug\Physics.lib and object c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Debug\Physics.exp
+         Project2.vcxproj -> c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Debug\Physics.dll
+     1>Done Building Project "c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61

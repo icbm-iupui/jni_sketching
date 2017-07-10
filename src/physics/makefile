@@ -7,7 +7,7 @@ launcher.o: launcher.cpp launch.h
 	g++ -c -fpic launcher.cpp
 
 launch_wrap.o: launch_wrap.cxx launch.h
-	g++ -I"C:\Program Files\Java\jdk1.8.0_131\include" -I"C:\Program Files\Java\jdk1.8.0_131\include\win32" -c -fpic launch_wrap.cxx
+	g++ -I"C:\Program Files\Java\jdk1.8.0_65\include" -I"C:\Program Files\Java\jdk1.8.0_65\include\win32" -c -fpic launch_wrap.cxx
 
 launch_wrap.cxx: launch.i launch.h
 	swig -java -c++ -package physics launch.i

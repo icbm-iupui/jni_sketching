@@ -1,3 +1,5 @@
+#define _USE_MATH_DEFINES // for C
+
 #include <jni.h>
 #include "physics_Physics.h"
 //#include "physics_Trajectory.h"

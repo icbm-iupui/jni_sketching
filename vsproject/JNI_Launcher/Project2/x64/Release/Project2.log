@@ -1,0 +1,17 @@
+﻿Build started 7/10/2017 3:34:24 PM.
+     1>Project "c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.8.0_65\include\win32" /I"C:\Program Files\Java\jdk1.8.0_65\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\..\..\NetBeansProjects\jni_sketching\src\include\physics.c
+         physics.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Release\Physics.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Release\Physics.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Release\Physics.lib" /MACHINE:X64 /DLL x64\Release\physics.obj
+            Creating library c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Release\Physics.lib and object c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Release\Physics.exp
+         Generating code
+     1>c:\users\winfrees\documents\netbeansprojects\jni_sketching\src\include\physics.c(96): warning C4715: 'velocity' : not all control paths return a value
+         Finished generating code
+         Project2.vcxproj -> c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\x64\Release\Physics.dll
+     1>Done Building Project "c:\Users\winfrees\documents\visual studio 2013\Projects\Project1\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

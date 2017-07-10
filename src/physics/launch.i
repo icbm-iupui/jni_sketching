@@ -3,6 +3,7 @@
 %{
 #include "launch.h"
 %}
+%include <windows.i>
 class Launcher{
         public:
                 Launcher(double, double, double);

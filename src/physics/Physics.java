@@ -155,7 +155,8 @@ public class Physics {
         // TODO code application logic here
         
         try{
-            System.load("C:\\Users\\andmcnut\\Documents\\NetBeansProjects\\Physics\\src\\physics\\launcher.dll");
+            //System.load("C:\\Users\\andmcnut\\Documents\\NetBeansProjects\\jniPhysics\\src\\physics\\launcher.dll");
+            System.load("C:\\Users\\winfrees\\Documents\\NetBeansProjects\\jni_sketching\\src\\physics\\launcher.dll");
             Physics start = new Physics();
         }
        catch (NullPointerException e){
@@ -184,7 +185,7 @@ class Trajectory extends JPanel{
     }
     
     static{
-        System.load("C:\\Users\\andmcnut\\Documents\\NetBeansProjects\\Physics\\src\\physics.dll");
+        System.load("C:\\Users\\winfrees\\Documents\\NetBeansProjects\\jni_sketching\\src\\physics.dll");
     }
     //private native double getXVel(int speed, double degrees);
     //private native double getYVel(int speed, double degrees);
