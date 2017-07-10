@@ -1,0 +1,16 @@
+all:launcher.so
+
+launcher.so: launcher.o launch_wrap.o
+	g++ -fpic -shared launcher.o launch_wrap.o -o launcher.so
+
+launcher.o: launcher.cpp launch.h
+	g++ -c -fpic launcher.cpp
+
+launch_wrap.o: launch_wrap.cxx launch.h
+	g++ -I"/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include" -I"/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin" -c -fpic launch_wrap.cxx
+
+launch_wrap.cxx: launch.i launch.h
+	swig -java -c++ -package physics launch.i
+
+clean:
+	rm launcher.dll launch*.java Launch*.java
